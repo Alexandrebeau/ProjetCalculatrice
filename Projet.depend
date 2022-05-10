@@ -1,4 +1,12 @@
 # depslib dependency file v1.0
-1652183408 source:d:\documents\cpp\projetcalculatrice\main.cpp
+1652185520 source:d:\documents\cpp\projetcalculatrice\main.cpp
+	<iostream>
+	"Expression.h"
+
+1652186085 d:\documents\cpp\projetcalculatrice\include\expression.h
+	<iostream>
+
+1652186234 source:d:\documents\cpp\projetcalculatrice\src\expression.cpp
+	"Expression.h"
 	<iostream>
 

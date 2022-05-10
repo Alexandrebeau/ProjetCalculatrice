@@ -8,9 +8,9 @@ class Expression
     public:
         Expression();
         virtual ~Expression();
-        virtual void afficher(ostream os);
-        virtual void afficherNPI(ostream os);
-        virtual float calculer();
+        virtual void afficher(ostream os)=0;
+        virtual void afficherNPI(ostream os)=0;
+        virtual float calculer()=0;
 
     protected:
 

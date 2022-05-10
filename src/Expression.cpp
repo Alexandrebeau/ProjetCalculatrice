@@ -1,16 +1,16 @@
 #include "Expression.h"
-#include "ostream"
+#include <iostream>
+
+using namespace std;
+
+
 Expression::Expression()
 {
-    //ctor
+
 }
 
 Expression::~Expression()
 {
     //dtor
 }
-virtual void afficher(ostream os);
-{
-    os << cin;
 
-}
